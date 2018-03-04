@@ -1,0 +1,104 @@
+@font-face {
+  font-family: Berthold;
+  src: url("./font/Berthold.otf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Berthold;
+  src: url("./font/BertholdBold.otf");
+  font-weight: bold;
+}
+
+html {
+    overflow: hidden;
+    height: 100%;
+}
+
+body {
+  color: white;
+  animation: colorchange 50s infinite;
+  -webkit-animation: colorchange 50s infinite;
+  height: 100%;
+  overflow: auto;
+}
+
+@keyframes colorchange
+{
+  0%   {background: #3D3EF1;}
+  25%  {background: #7D3DF1;}
+  50%  {background: #AE3DF1;}
+  75%  {background: #D83DF1;}
+  100% {background: #3D3EF1;}
+}
+
+@-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+{
+  0%   {background: #3D3EF1;}
+  25%  {background: #7D3DF1;}
+  50%  {background: #AE3DF1;}
+  75%  {background: #D83DF1;}
+  100% {background: #3D3EF1;}
+}
+
+.fixed-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.fixed-container .logo {
+  position: absolute;
+  top: 20px;
+  right: 1%;
+  line-height: 0.6em;
+  text-align: right;
+  font-size: 3em;
+}
+
+.logo .second-line {
+  font-size: 80%;
+  padding-left: 0;
+}
+
+.main-content {
+  position: absolute;
+  font-size: 12em;
+  font-weight: bold;
+  line-height: 0.6em;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
+.second-line {
+  padding-left: 9%;
+}
+
+.legal-info {
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+p.legal-info {
+  margin: 0;
+}
+
+.unselectable {
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+@media(max-width: 800px){
+  .main-content {
+    font-size: 4.5em;
+  }
+  
+  .fixed-container .logo {
+    right: 2%;
+  }
+}
