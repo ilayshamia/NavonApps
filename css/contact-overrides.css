@@ -1,0 +1,37 @@
+body {
+  animation: none;
+  background: black;
+}
+
+.main-content {
+  font-size: 11em;
+  white-space: nowrap;
+}
+
+.contact-us {
+  font-size: 20%;
+  display: block;
+  position: fixed;
+  left: 10%;
+}
+
+.contact-us a {
+  text-decoration: none;
+  color: fuchsia;
+}
+
+.contact-us a:hover {
+  color: aqua;
+}
+
+@media(max-width: 800px){
+  
+  .main-content {
+    font-size: 3.2em;
+  }
+  
+  .contact-us {
+    font-size: 0.3em;
+    padding-top: 5px;
+  }
+}
