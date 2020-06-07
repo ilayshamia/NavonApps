@@ -65,7 +65,7 @@ body {
   position: absolute;
   font-size: 12em;
   font-weight: bold;
-  line-height: 1.5em;
+  line-height: 1em;
   top: 50%;
   left: 2%;
   transform: translateY(-50%);
@@ -73,14 +73,13 @@ body {
 
 .main-content-support {
   position: absolute;
-  font-size: 7em;
+  font-size: 4em;
   font-weight: bold;
-  line-height: 1.5em;
+  line-height: 1em;
   top: 50%;
   left: 2%;
   transform: translateY(-50%);
 }
-
 
 .second-line {
   padding-left: 9%;
@@ -109,8 +108,8 @@ p.legal-info {
     font-size: 4.5em;
   }
   
-  .main-content-support { 
-    font-size: 2.5em; 
+   .main-content-support { 
+    font-size: 1.5em; 
   }
   
   .fixed-container .logo {
