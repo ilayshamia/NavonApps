@@ -71,6 +71,17 @@ body {
   transform: translateY(-50%);
 }
 
+.main-content-support {
+  position: absolute;
+  font-size: 3em;
+  font-weight: bold;
+  line-height: 0.6em;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
+}
+
+
 .second-line {
   padding-left: 9%;
 }
