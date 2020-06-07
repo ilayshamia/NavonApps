@@ -108,6 +108,10 @@ p.legal-info {
     font-size: 4.5em;
   }
   
+   .main-content-support { 
+    font-size: 2.5em; 
+  }
+  
   .fixed-container .logo {
     right: 2%;
   }
