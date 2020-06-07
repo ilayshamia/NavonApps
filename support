@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <title>Navon Consulting - Support</title>
+  <meta name="description" content="">
+  <meta name="author" content="Ilay Shamia">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <script src="js/jquery-3.1.0.min.js"></script>
+  <script src="js/scripts.js"></script>
+
+</head>
+<body>
+  
+  <div class="fixed-container">
+    <h5 class="logo unselectable">
+        NAVON
+      <br />
+      <span class="second-line">
+        APPS
+      </span>
+    </h5>
+    <h1 class="main-content unselectable">
+      CONTACT SUPPORT
+      <br />
+      <span class="second-line">SUPPORT@NAVONAPPS.COM</span>
+    </h1>
+    <p class="legal-info">&copy; Navon Consulting 2021</p>
+  </div>
+
+</body>
+</html>
