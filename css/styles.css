@@ -73,7 +73,7 @@ body {
 
 .main-content-support {
   position: absolute;
-  font-size: 7em;
+  font-size: 4em;
   font-weight: bold;
   line-height: 1em;
   top: 50%;
@@ -109,7 +109,7 @@ p.legal-info {
   }
   
    .main-content-support { 
-    font-size: 3em; 
+    font-size: 1.5em; 
   }
   
   .fixed-container .logo {
