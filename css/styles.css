@@ -65,7 +65,7 @@ body {
   position: absolute;
   font-size: 12em;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 1.5em;
   top: 50%;
   left: 2%;
   transform: translateY(-50%);
@@ -75,7 +75,7 @@ body {
   position: absolute;
   font-size: 7em;
   font-weight: bold;
-  line-height: 1em;
+  line-height: 1.5em;
   top: 50%;
   left: 2%;
   transform: translateY(-50%);
